@@ -5,6 +5,9 @@
  * License: MIT
  */
 
+'use strict';
+angular.module('ngFlowGrid', []).
+	
 directive('ngFlowGrid', ['flowGridDelegate', function (flowGridDelegate) {
 	return {
 		restrict: 'A',
